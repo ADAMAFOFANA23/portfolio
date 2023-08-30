@@ -1,0 +1,51 @@
+body {
+    background-color: #23263A;
+    z-index: inherit;
+  }
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+  .profil-img{
+    background-color: #23263A;
+    border-radius: 50%;
+    border: 1px solid #DC3545;
+    
+  }
+  .btn-profil{
+    text-decoration: none;
+    font-weight:700;
+    color: white !important;
+    background-color: #DC3545;
+    padding: 2%;
+    border: 1px solid white !important;
+  }
+  .btn-profil:hover{
+    color: #DC3545 !important;
+    background-color: white;
+    border: 1px solid #DC3545 !important;
+  }
+  .card{
+    height: 200px;
+  }
+  /*#apropos{
+    border:1px solid #DC3545;
+  }
+*/
+  @media (min-width: 768px) { 
+    #profil,#apropos,#experience,#skills,#contact {
+      min-height: auto !important;
+    }
+    
+  }
+ 
+
+
+
